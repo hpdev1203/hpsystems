@@ -36,23 +36,12 @@
 
                                 <div class="p-3">
                                     <h4 class="text-muted font-size-18 mb-1 text-center">Setup Everything For Your Enterpise</h4>
-                                    <p class="text-muted text-center">Create company owner information.</p>
+                                    <p class="text-muted text-center">Create Admin Information.</p>
                                     <form class="form-horizontal mt-4" action="index.html">
-                                        <div class="mb-3 row">
-                                            <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-                                            <div class="col-md-3">
-                                                <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
-                                            </div>
-                                            <div class="col-md-2 col-form-label"></div>
-                                            <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-                                            <div class="col-md-3">
-                                                <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
-                                            </div>
-                                        </div>
                                         <div class="row">
                                             <div class="col-md-4 mb-3">
-                                                <label for="firstname">First Name</label>
-                                                <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+                                                <label for="fullname">Full Name</label>
+                                                <input type="text" class="form-control" id="fullname" placeholder="Enter full name of admin">
                                             </div>
                                             <div class="col-md-4 mb-3">
                                                 <label for="middlename">Middle Name</label>
@@ -63,7 +52,7 @@
                                                 <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <!-- <div class="row">
                                             <div class="col-md-4 mb-3">
                                                 <label for="gender">Gender</label>
                                                 <select class="form-control" id="gender">
@@ -76,7 +65,7 @@
                                                 <label for="gender">Birthday</label>
                                                 <input type="date" class="form-control" id="gender" placeholder="Enter middle name">
                                             </div>
-                                        </div>
+                                        </div> -->
                                         
                                         <div class="mb-3 row mt-4">
                                             <div class="col-12 text-end">
