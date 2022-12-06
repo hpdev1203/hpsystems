@@ -11,6 +11,10 @@
         <!-- App favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico"> 
         
+        <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+        <link href="assets/libs/spectrum-colorpicker2/spectrum.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
         <!-- Bootstrap Css -->
         <link href="{{asset('assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
@@ -23,7 +27,7 @@
         <div class="account-pages my-5 pt-sm-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-9 col-xl-9">
+                    <div class="col-md-6 col-lg-6 col-xl-6">
                         <div class="card overflow-hidden">
                             <div class="card-body pt-0">
 
@@ -36,20 +40,24 @@
 
                                 <div class="p-3">
                                     <h4 class="text-muted font-size-18 mb-1 text-center">Setup Everything For Your Enterpise</h4>
-                                    <p class="text-muted text-center">Create Admin Information.</p>
+                                    <p class="text-muted text-center">Create Enterpise Information.</p>
                                     <form class="form-horizontal mt-4" action="index.html">
                                         <div class="row">
-                                            <div class="col-md-4 mb-3">
-                                                <label for="fullname">Full Name</label>
-                                                <input type="text" class="form-control" id="fullname" placeholder="Enter full name of admin">
+                                            <div class="col-md-12 mb-3">
+                                                <label for="enterpisename">Enterpise Name</label>
+                                                <input type="text" class="form-control" id="enterpisename" placeholder="Enter your enterpise name">
                                             </div>
-                                            <div class="col-md-4 mb-3">
-                                                <label for="middlename">Middle Name</label>
-                                                <input type="text" class="form-control" id="middlename" placeholder="Enter middle name">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <label for="adminusername">Admin Username</label>
+                                                <input type="text" class="form-control" id="adminusername" placeholder="Enter your Admin Username">
                                             </div>
-                                            <div class="col-md-4 mb-3">
-                                                <label for="lastname">Last Name</label>
-                                                <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <label for="password">Password</label>
+                                                <input type="password" class="form-control" id="password" placeholder="Enter password">
                                             </div>
                                         </div>
                                         <!-- <div class="row">
@@ -81,13 +89,23 @@
             </div>
         </div>
 
-        <!-- JAVASCRIPT -->
+         <!-- JAVASCRIPT -->
         <script src="assets/libs/jquery/jquery.min.js"></script>
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/libs/metismenu/metisMenu.min.js"></script>
         <script src="assets/libs/simplebar/simplebar.min.js"></script>
         <script src="assets/libs/node-waves/waves.min.js"></script>
         <script src="assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+        <script src="assets/libs/select2/js/select2.min.js"></script>
+        <script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/libs/spectrum-colorpicker2/spectrum.min.js"></script>
+        <script src="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="assets/libs/admin-resources/bootstrap-filestyle/bootstrap-filestyle.min.js"></script>
+        <script src="assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+
+        <script src="assets/js/pages/form-advanced.init.js"></script>
+
         <!-- App js -->
         <script src="assets/js/app.js"></script>
     </body>

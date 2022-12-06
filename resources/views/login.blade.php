@@ -38,7 +38,7 @@
                                     <form class="form-horizontal mt-4" action="index.html">
                                         <div class="mb-3">
                                             <label for="username">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username or email">
+                                            <input type="text" class="form-control" id="username" required placeholder="Enter username or email">
                                         </div>
                                         <div class="mb-3">
                                             <label for="userpassword">Password</label>
@@ -69,16 +69,5 @@
                 </div>
             </div>
         </div>
-
-        <!-- JAVASCRIPT -->
-        <script src="assets/libs/jquery/jquery.min.js"></script>
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="assets/libs/node-waves/waves.min.js"></script>
-        <script src="assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
-        <!-- App js -->
-        <script src="assets/js/app.js"></script>
     </body>
-
 </html>
